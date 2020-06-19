@@ -1,15 +1,15 @@
-#Instructions
+# Instructions
 
-##Task - part one (data from CSV file to database) :
+## Task - part one (data from CSV file to database) :
 
-###Installation
-####Requirements
+### Installation
+#### Requirements
 * Python 3
 * PostgreSQL
 * virtualenv 
 
 
-####Setup
+#### Setup
 
 * Copy `config.cfg.example` to `config.cfg` with the following command:  
 ```
@@ -22,22 +22,22 @@ cp config.cfg.example config.cfg
 * Install requirements: `pip install -r requirements.txt`
 * When done, deactivate environment: `env\Scripts\deactivate.bat`
 
-###Running the script
+### Running the script
 `python csv_to_db.py`
 
 After running this script a table will be created in the database that will contain the data from the CSV file.
 
 
-##Task - part two (serve database data to HTML; log requests):
+## Task - part two (serve database data to HTML; log requests):
 
-###Installation
-####Requirements
+### Installation
+#### Requirements
 * Python 3
 * PostgreSQL
 * virtualenv 
 
 
-####Setup
+#### Setup
 
 * Copy `config.cfg.example` to `config.cfg` with the following command:  
 ```
@@ -51,7 +51,7 @@ cp config.cfg.example config.cfg
 * When done, deactivate environment: `env\Scripts\deactivate.bat`
 
 
-###Running the script
+### Running the script
 `python app.py`
 
 * After running the script you should get an url.
