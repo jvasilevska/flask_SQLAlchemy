@@ -1,4 +1,4 @@
-#Description of development decisions
+# Description of development decisions
 
 The solution of the task is in two parts, as the instructions required an application that transfers `task_data.csv` to a database and a separate web application that is able to connect to this database. For both applications a separate virtual environment was created in order to have only the necessary libraries for each installed. This way, the two are independent of one another and can be running on different machines. 
 
